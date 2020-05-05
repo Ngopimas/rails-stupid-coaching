@@ -1,0 +1,18 @@
+<h1>Stupid Coaching</h1>
+<br>
+  <div class="card border-info mb-3" style="max-width: 40rem; margin: 0 auto;">
+    <div class="card-body text-info">
+      <p class="card-text">"<%= @question.capitalize %>"</p>
+    </div>
+    <div class="card-header">- You</div>
+  </div>
+  <div class="card border-danger mb-3" style="max-width: 40rem; margin: 0 auto;">
+    <div class="card-body text-danger">
+      <p class="card-text">"<%= @answer %>"</p>
+    </div>
+    <div class="card-header">- Your coach</div>
+  </div>
+<br>
+<%= link_to "Ask a new question", ask_path %>
+
+
